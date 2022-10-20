@@ -1,0 +1,80 @@
+
+.texto1{
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px;
+  color: rgb(61, 61, 61);
+  font-family: Helvetica;
+  font-size: 250%;
+  text-align: center;       
+}
+
+.input{
+  height: 30px;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(170, 170, 170);
+  padding-top: 1px;
+}
+
+.calendar{
+  padding-bottom: 1px;
+  height: 31px;
+  width: 130px;
+  font-size: 18px;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.button{
+    height: 32px;
+    width: 80px;
+    margin-left: 0px;
+    font-size: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #60ecff;      
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+  border-width: 2px;
+  border-style: solid;
+  border-color:rgb(55, 55, 255);
+  color: rgb(55, 55, 255);
+}
+
+
+.text{
+  font-size: 20px;
+  color:rgb(61, 61, 61);
+  font-family: Arial;
+  font-weight: bold;   
+  text-align: center;  
+  margin-top: 0;  
+  }
+
+.schedule-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;  
+}
+
+.input-grid{
+  margin-top: 0px;
+  height:100%;
+  width: 700px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #60ecff;
+  border-radius: 25px 0px 25px 0px;
+  padding: 20px 20px;
+  
+}
+
+
